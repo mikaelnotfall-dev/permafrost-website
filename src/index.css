@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --background-color: whitesmoke;
+  --text-color: black;
+  --border-color: rgb(209, 209, 209);
+
+  --accent-color: rgb(97, 48, 212);
+  --accent-color-less-opacity: rgba(145, 129, 216, 0.219);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: rgb(10, 9, 15);
+    --text-color: white;
+    --border-color: rgb(25, 23, 37);
+    --accent-color-less-opacity: rgba(107, 84, 212, 0.3);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Elms Sans", sans-serif, monospace;
+}
+
+*::selection {
+  background-color: rgba(135, 167, 235, 0.356);
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+img {
+  user-select: none;
+}
