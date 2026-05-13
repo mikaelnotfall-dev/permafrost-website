@@ -1,11 +1,17 @@
 .hero {
   height: 100vh;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-contents {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 1rem;
 }
 
 .hero::before {

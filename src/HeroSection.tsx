@@ -4,12 +4,12 @@ import Button from "./Button";
 
 function HeroSection() {
   return (
-    <section className="hero fade-in">
-      <h1>Fast. Lightweight. <br />Permafrost.</h1>
-      <p>C++23 Minecraft: Java Edition server implementation dedicated for maximum performance and low latency.</p>
-      <div style={{ display: "flex", gap: "15px" }}>
+    <section className="hero">
+      <span className="hero-contents fade-in">
+        <h1>Fast. Lightweight. <br />Permafrost.</h1>
+        <p>C++23 Minecraft: Java Edition server implementation dedicated for maximum performance and low latency.</p>
         <Button caption="Download Latest" link="#" />
-      </div>
+      </span>
     </section>
   );
 }
