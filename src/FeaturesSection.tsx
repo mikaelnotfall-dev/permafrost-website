@@ -12,7 +12,7 @@ function FeaturesSection() {
       <Card icon={FaComputer} title="Support for Low-End Devices"
         desc="Designed specifically to run on slow hardware to utilize it and bring to life again." />
       <Card icon={FaNewspaper} title="MIT License"
-        desc="The project is fully open source and available for all to contribute to!" />
+        desc="The project is fully open-source and available for all to contribute to!" />
     </section>
   );
 }
