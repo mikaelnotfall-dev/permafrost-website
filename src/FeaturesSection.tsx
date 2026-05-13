@@ -8,9 +8,9 @@ function FeaturesSection() {
   return (
     <section className="features-section">
       <Card icon={FaMemory} title="C++23 Core"
-        desc="Language that powers popular browsers, operating systems and game engines and is used for maximum speed and minimum overhead." />
-      <Card icon={FaComputer} title="Slow Devices Support"
-        desc="Designed specifically to run on old, low-end hardware to utilize it and bring to life again." />
+        desc="Language, that powers browsers, operating systems and game engines, is used for maximum speed with minimum overhead." />
+      <Card icon={FaComputer} title="Support for Low-End Devices"
+        desc="Designed specifically to run on slow hardware to utilize it and bring to life again." />
       <Card icon={FaNewspaper} title="MIT License"
         desc="The project is fully open source and available for all to contribute to!" />
     </section>
